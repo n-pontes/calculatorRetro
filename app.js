@@ -64,7 +64,7 @@ const operateBtn = (e) => {
             num2 = null;
             operator = null;
         }
-    } else if (btn === 'DEL') {
+    } else if (btn === 'C') {
         // Remove last digit logic
         if (num2 !== null) {
             num2 = Math.floor(num2 / 10);
